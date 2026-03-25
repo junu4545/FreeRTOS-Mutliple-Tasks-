@@ -14,6 +14,8 @@ This project demonstrates **Multi-tasking** in FreeRTOS by managing two concurre
 4. **Minimalist System Configuration**: Maintained the execution environment in `mainCREATE_SIMPLE_BLINKY_DEMO_ONLY 1` mode to focus strictly on core scheduling and multitasking logic.
 
 ## Results
+<img width="528" height="209" alt="image" src="https://github.com/user-attachments/assets/9c35998b-17df-45b9-a4fd-521df25ea851" />
+
 ### **Logging**
 In this project, **Logging** was utilized as a key tool to record and analyze scheduling behavior in a multi-tasking environment.
 * **Interleaved Output Pattern**: Confirmed that `Task1` (1s) and `Task2` (2s) output to the terminal alternately. At the 2-second mark (even seconds), both tasks were logged simultaneously.
